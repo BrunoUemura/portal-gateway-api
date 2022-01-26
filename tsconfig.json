@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "lib": ["es2020"],
+    "rootDir": ".",
+    "outDir": "dist",
+    "strict": false,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "include": ["./src/**/*.ts", "./test/**/*.ts"],
+  "exclude": ["./node_modules/*", "dist"]
+}
